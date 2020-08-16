@@ -55,11 +55,11 @@ jobs:
 
           df -h
           
-      - name: 网易云
-        run: |
-          cd package
-          git clone https://github.com/maxlicheng/luci-app-unblockmusic.git
-          cd ..
+#       - name: 网易云
+#         run: |
+#           cd package
+#           git clone https://github.com/maxlicheng/luci-app-unblockmusic.git
+#           cd ..
           
       - name: luci-app-scutclient
         run: |
