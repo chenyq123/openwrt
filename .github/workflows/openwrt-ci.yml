@@ -59,11 +59,13 @@ jobs:
         run: |
           cd package
           git clone https://github.com/maxlicheng/luci-app-unblockmusic.git
+          cd ..
           
       - name: luci-app-scutclient
         run: |
           cd feeds/luci/applications
           git clone https://github.com/scutclient/luci-app-scutclient.git
+          cd -
           
       - name: Update feeds
         run: |
