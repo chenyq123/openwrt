@@ -61,11 +61,11 @@ jobs:
 #           git clone https://github.com/maxlicheng/luci-app-unblockmusic.git
 #           cd ..
           
-      - name: luci-app-scutclient
-        run: |
-          cd feeds/luci/applications
-          git clone https://github.com/scutclient/luci-app-scutclient.git
-          cd -
+#       - name: luci-app-scutclient
+#         run: |
+#           cd feeds/luci/applications
+#           git clone https://github.com/scutclient/luci-app-scutclient.git
+#           cd -
           
       - name: Update feeds
         run: |
@@ -176,7 +176,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-wireguard=y
           # CONFIG_PACKAGE_luci-app-wrtbwmon=y
           # CONFIG_PACKAGE_luci-app-unblockmusic=y
-          CONFIG_PACKAGE_luci-app-scutclient=y
+          # CONFIG_PACKAGE_luci-app-scutclient=y
           EOF
 
           # LuCI主题:
